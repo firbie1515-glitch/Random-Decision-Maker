@@ -1,0 +1,27 @@
+# Java build output
+*.class
+*.jar
+*.war
+*.ear
+out/
+build/
+target/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.properties.local
+config.local.*
